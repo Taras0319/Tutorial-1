@@ -3,3 +3,110 @@ body{
 font-family: 'Manrope',
 sans-serif;
 }
+
+ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+}
+
+
+.list  {
+list-style: none;
+}
+
+.conteiner{
+width: 1310px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
+
+.section-about-us{
+padding-top: 150px;
+padding-bottom: 150px;
+
+}
+
+
+.conteiner-about-us{
+background: var(--black, #1C2225);
+}
+
+.about-us-title {
+    color: var(--white, #FCF9F9);
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.45px;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+}
+
+.about-us-list{
+    
+}
+
+.about-us-list-item{
+margin-bottom: 20px;
+}
+
+.about-us-list-item:last-child{
+margin-bottom: 0;
+}
+
+
+.about-us-list-text {
+color: rgba(252, 249, 249, 0.40);
+    font-family: Manrope;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: -0.04em;
+}
+
+.about-us-content{
+    
+}
+
+.about-us-content {
+
+}
+
+
+.about-us-content-img{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    float: right;
+}
+
+.about-us-img{
+float:right;
+}
+
+.about-us-content-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
