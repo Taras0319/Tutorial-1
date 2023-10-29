@@ -18,19 +18,9 @@
   </head>
   <body>
     <h1>vyshyvanka</h1>
-
     <main>
       <section class="section-about-us">
         <div class="conteiner-about-us conteiner">
-          <div class="about-us-content-img">
-            <img
-              src="./images/girl and boy.jpg"
-              alt="girl and boy"
-              width="594"
-              height="545"
-              class="about-us-img"
-            />
-          </div>
           <div class="about-us-content-text">
             <h2 class="about-us-title">About Us</h2>
             <ul class="about-us-list list">
@@ -58,6 +48,29 @@
                 </p>
               </li>
             </ul>
+            <div class="about-us-content-img">
+              <picture>
+                <source
+                  srcset="./images/girl and boy.jpg 1x, girl and boy 2x.jpg 2x"
+                  media="min-width: 1280px"
+                />
+                <source
+                  srcset="./images/girl and boy plan.jpg 1x, girl and boy plan 2x.jpg 2x"
+                  media="min-width: 768px"
+                />
+                <source
+                  srcset="./images/girl and boy mob.jpg 1x, girl and boy mob 2x.jpg 2x"
+                  media="max-width: 767px"
+                />
+                <img
+                  src="./images/girl and boy mob.jpg"
+                  alt="girl and boy"
+                  width="335"
+                  height="499"
+                  class="about-us-img"
+                />
+              </picture>
+            </div>
           </div>
         </div>
       </section>
