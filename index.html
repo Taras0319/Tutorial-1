@@ -2,78 +2,600 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/ukrainian-style/assets/logo-3d215253.svg"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Vyshyvanka Vibes</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Manrope:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
+
+    <script
+      type="module"
+      crossorigin
+      src="/ukrainian-style/assets/index-ec2a8754.js"
+    ></script>
+    <link rel="stylesheet" href="/ukrainian-style/assets/index-c9993e47.css" />
   </head>
   <body>
-    <h1>vyshyvanka</h1>
-    <main>
-      <section class="section-about-us">
-        <div class="conteiner-about-us conteiner">
-          <div class="about-us-content-text">
-            <h2 class="about-us-title">About Us</h2>
-            <ul class="about-us-list list">
-              <li class="about-us-list-item">
-                <p class="about-us-list-text">
-                  The store "Vyshyvanka Vibes" is a place where traditional
-                  Ukrainian vyshyvanka comes to life with new zest and style.
-                  Our store offers a wide selection of high-quality and
-                  authentic embroidery, which combines the elegance of
-                  traditional needlework and modern design.
-                </p>
-              </li>
-              <li class="about-us-list-item">
-                <p class="about-us-list-text">
-                  In "Vyshyvanka Vibes" you will find various models of
-                  embroidery, from classic to modern, corresponding to the
-                  latest fashion trends. Our embroidery is made using natural
-                  fabrics and is embroidered by highly qualified craftsmen who
-                  convey the beauty of Ukrainian culture in every detail.We
-                  believe that vyshyvanka is not just clothing, but a symbol of
-                  national pride, the heritage of our ancestors and a way of
-                  expressing one's individuality. Each embroidery from
-                  "Vyshyvanka Vibes" has its own unique history and symbolism,
-                  which gives it a special meaning.
-                </p>
-              </li>
-            </ul>
-            <div class="about-us-content-img">
-              <picture>
-                <source
-                  srcset="./images/girl and boy.jpg 1x, girl and boy 2x.jpg 2x"
-                  media="min-width: 1280px"
-                />
-                <source
-                  srcset="./images/girl and boy plan.jpg 1x, girl and boy plan 2x.jpg 2x"
-                  media="min-width: 768px"
-                />
-                <source
-                  srcset="./images/girl and boy mob.jpg 1x, girl and boy mob 2x.jpg 2x"
-                  media="max-width: 767px"
-                />
-                <img
-                  src="./images/girl and boy mob.jpg"
-                  alt="girl and boy"
-                  width="335"
-                  height="499"
-                  class="about-us-img"
-                />
-              </picture>
-            </div>
+    <header class="page-header">
+      <div class="header-main container">
+        <nav class="header-nav">
+          <a class="header-logo" href="#"
+            ><img
+              src="/ukrainian-style/assets/logo-3d215253.svg"
+              alt="Logo"
+              width="44"
+              height="40"
+          /></a>
+          <ul class="header-nav-list">
+            <li class="header-list-item">
+              <a class="header-list-link" href="#about">About us</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-list-link" href="#collection">Our collection </a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-list-link" href="#order">CUSTOMER ORDER</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-list-link" href="#testimonials">TEstimonials</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-address">
+          <a class="address-phone" href="tel:380684439426"
+            >+380 (68) 443-94-26</a
+          >
+        </address>
+        <ul class="social-list">
+          <li class="social-list-item">
+            <a
+              href="https://www.facebook.com/goITclub/"
+              class="social-list-link"
+              target="_blank"
+            >
+              <svg class="social-list-icon" width="28" height="28">
+                <use
+                  href="/ukrainian-style/assets/sprite-e80feece.svg#icon-facebook"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a
+              href="https://www.instagram.com/goitclub/"
+              class="social-list-link"
+              target="_blank"
+            >
+              <svg class="social-list-icon" width="28" height="28">
+                <use
+                  href="/ukrainian-style/assets/sprite-e80feece.svg#icon-instagram"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a
+              href="https://www.youtube.com/c/GoIT"
+              class="social-list-link"
+              target="_blank"
+            >
+              <svg class="social-list-icon" width="28" height="28">
+                <use
+                  href="/ukrainian-style/assets/sprite-e80feece.svg#icon-youtube"
+                ></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <button
+          class="menu-btn js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="btn-svg" width="44" height="40">
+            <use
+              href="/ukrainian-style/assets/sprite-e80feece.svg#icon-menu"
+            ></use>
+          </svg>
+        </button>
+      </div>
+
+      <!-- =============== MODAL MENU ================== -->
+      <!-- =============== MODAL MENU ================== -->
+
+      <div class="menu-window js-menu-container" id="mobile-menu">
+        <div class="menu-window-top">
+          <address class="menu-address">
+            <a class="menu-address-phone" href="tel:380684439426"
+              >+380 (68) 443-94-26</a
+            >
+          </address>
+
+          <button class="menu-btn-close js-close-menu" type="button">
+            <svg class="btn-close-img" width="36" height="36">
+              <use
+                href="/ukrainian-style/assets/sprite-e80feece.svg#icon-close"
+              ></use>
+            </svg>
+          </button>
+        </div>
+        <ul class="menu-nav-list">
+          <li class="menu-list-item">
+            <a class="menu-list-link" href="#about">About us</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-list-link" href="#collection">Our collection </a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-list-link" href="#order">CUSTOMER ORDER</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-list-link" href="#testimonials">TEstimonials</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero-sun">
+        <div class="hero-block">
+          <div class="hero-block-title-and-button">
+            <h1 class="hero-title">
+              Reviving the traditional
+              <span class="hero-title-span">Ukrainian</span> artistry in every
+              stitch.
+            </h1>
+            <a class="hero-link" href="#order">
+              Order
+              <svg
+                class="hero-link-icon"
+                width="26"
+                height="10"
+                aria-label="icon-arrow"
+              >
+                <use
+                  href="/ukrainian-style/assets/sprite-e80feece.svg#icon-arrow"
+                ></use>
+              </svg>
+            </a>
+          </div>
+          <div class="hero-block-image">
+            <img
+              class="hero-image"
+              srcset="
+                /ukrainian-style/assets/girl-desktop-937c7326.jpg    392w,
+                /ukrainian-style/assets/girl-desktop@2x-397ce74b.jpg 784w,
+                /ukrainian-style/assets/girl-tablet-be41bcdc.jpg     413w,
+                /ukrainian-style/assets/girl-tablet@2x-a8b60a13.jpg  826w,
+                /ukrainian-style/assets/girl-mobile-d64128b3.jpg     335w,
+                /ukrainian-style/assets/girl-mobile@2x-6335128c.jpg  670w
+              "
+              sizes="(min-width: 1280px) 392px, (min-width: 768px) 413px, (max-width: 767px) 335px"
+              src="/ukrainian-style/assets/girl-mobile-d64128b3.jpg"
+              alt="Girl"
+            />
           </div>
         </div>
-      </section>
-    </main>
+        <img
+          class="hero-img-ellipse"
+          srcset="
+            /ukrainian-style/assets/ellipse-efb286c5.png    139w,
+            /ukrainian-style/assets/ellipse@2x-7ee9b25c.png 278w
+          "
+          sizes="(min-width: 768px) 139px"
+          src="/ukrainian-style/assets/ellipse-efb286c5.png"
+          alt="Ellipse"
+        />
+        <div class="hero-group">
+          <svg
+            class="hero-group-icon"
+            width="52"
+            height="51"
+            aria-label="icon-sun"
+          >
+            <use
+              href="/ukrainian-style/assets/sprite-e80feece.svg#icon-sun"
+            ></use>
+          </svg>
+          <p class="hero-group-text">all embroidery is made by hand</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container about-ornament-wr">
+        <div class="about-all-content">
+          <div class="about-content">
+            <h2 class="about-title">About Us</h2>
+            <p class="about-text about-text-margin">
+              The store "Vyshyvanka Vibes" is a place where traditional
+              Ukrainian vyshyvanka comes to life with new zest and style. Our
+              store offers a wide selection of high-quality and authentic
+              embroidery, which combines the elegance of traditional needlework
+              and modern design.
+            </p>
+            <p class="about-text">
+              In "Vyshyvanka Vibes" you will find various models of embroidery,
+              from classic to modern, corresponding to the latest fashion
+              trends. Our embroidery is made using natural fabrics and is
+              embroidered by highly qualified craftsmen who convey the beauty of
+              Ukrainian culture in every detail.We believe that vyshyvanka is
+              not just clothing, but a symbol of national pride, the heritage of
+              our ancestors and a way of expressing one's individuality. Each
+              embroidery from "Vyshyvanka Vibes" has its own unique history and
+              symbolism, which gives it a special meaning.
+            </p>
+          </div>
+
+          <img
+            class="about-img"
+            srcset="
+              /ukrainian-style/assets/girl-and-boy-mv-de723f6e.jpg      335w,
+              /ukrainian-style/assets/girl-and-boy-mv-2x-373984fa.jpg   670w,
+              /ukrainian-style/assets/girl-and-boy-tbl-1c77b785.jpg     704w,
+              /ukrainian-style/assets/girl-and-boy-tbl-2x-a2deb500.jpg 1408w,
+              /ukrainian-style/assets/girl-and-boy1280-e94b447f.jpg     594w,
+              /ukrainian-style/assets/girl-and-boy1280-2x-f7ea4b39.jpg 1188w
+            "
+            sizes="(min-width: 1280px) 594px, (min-width: 768px) 704px, (min-width: 320px) 335px"
+            src="/ukrainian-style/assets/girl-and-boy-mv-de723f6e.jpg"
+            alt="foto Vyshyvanka"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="our-collection" id="collection">
+      <div></div>
+      <div class="container our-collection-container">
+        <h2 class="our-collection-main-text">Our collection</h2>
+        <ul class="our-collection-list">
+          <li class="our-collection-item">
+            <img
+              class="our-collection-photo"
+              srcset="
+                /ukrainian-style/assets/august-mobile-3803d78b.jpg     335w,
+                /ukrainian-style/assets/august-mobile@2x-22f1e032.jpg  670w,
+                /ukrainian-style/assets/august-tablet-01551811.jpg     342w,
+                /ukrainian-style/assets/august-tablet@2x-4d280806.jpg  684w,
+                /ukrainian-style/assets/august-desktop-1a9ca649.jpg    400w,
+                /ukrainian-style/assets/august-desktop@2x-85621b48.jpg 800w
+              "
+              sizes=" (min-width: 375px) 335px,
+                    (min-width: 768px) 342px,
+                    (min-width: 1280px) 400px
+                        "
+              src="/ukrainian-style/assets/august-mobile-3803d78b.jpg"
+              alt="August Poltava"
+              width="335"
+            />
+            <h3 class="our-collection-name-item">
+              AUGUST Poltava women's blouseRING
+            </h3>
+            <p class="our-collection-price-item">3300 UAH</p>
+          </li>
+          <li class="our-collection-item">
+            <img
+              class="our-collection-photo"
+              srcset="
+                /ukrainian-style/assets/gorgany-mobile-c41daa0a.jpg     335w,
+                /ukrainian-style/assets/gorgany-mobile@2x-c9197448.jpg  670w,
+                /ukrainian-style/assets/gorgany-tablet-ac5218d7.jpg     342w,
+                /ukrainian-style/assets/gorgany-tablet@2x-a7fa5ddb.jpg  684w,
+                /ukrainian-style/assets/gorgany-desktop-72282b9f.jpg    400w,
+                /ukrainian-style/assets/gorgany-desktop@2x-50ebba26.jpg 800w
+              "
+              sizes=" (max-width: 767px) 335px,
+                    (min-width: 768px) 342px,
+                    (min-width: 1280px) 400px"
+              src="/ukrainian-style/assets/gorgany-mobile-c41daa0a.jpg"
+              alt="Blouse Gorgany"
+              width="335"
+            />
+            <h3 class="our-collection-name-item">Women's blouse Gorgany</h3>
+            <p class="our-collection-price-item">3350 UAH</p>
+          </li>
+          <li class="our-collection-item">
+            <img
+              class="our-collection-photo"
+              srcset="
+                /ukrainian-style/assets/crimea-mobile-4923b9f4.jpg     335w,
+                /ukrainian-style/assets/crimea-mobile@2x-b853a114.jpg  670w,
+                /ukrainian-style/assets/crimea-tablet-290df4dd.jpg     342w,
+                /ukrainian-style/assets/crimea-tablet@2x-b6eccb9e.jpg  684w,
+                /ukrainian-style/assets/crimea-desktop-4e95410a.jpg    400w,
+                /ukrainian-style/assets/crimea-desktop@2x-1b7052bb.jpg 800w
+              "
+              sizes=" (max-width: 767px) 335px,
+                    (min-width: 768px) 342px,
+                    (min-width: 1280px) 400px
+                      "
+              src="/ukrainian-style/assets/crimea-mobile-4923b9f4.jpg"
+              alt="Crimea"
+              width="335"
+            />
+
+            <h3 class="our-collection-name-item">Women's blouse Crimea</h3>
+            <p class="our-collection-price-item">4000 UAH</p>
+          </li>
+          <li class="our-collection-item">
+            <img
+              class="our-collection-photo"
+              srcset="
+                /ukrainian-style/assets/verkhovina-mobile-6df0889d.jpg     335w,
+                /ukrainian-style/assets/verkhovina-mobile@2x-e709f4ae.jpg  670w,
+                /ukrainian-style/assets/verkhovina-tablet-896343d8.jpg     342w,
+                /ukrainian-style/assets/verkhovina-tablet@2x-583af49d.jpg  684w,
+                /ukrainian-style/assets/verkhovina-desktop-48cc972b.jpg    400w,
+                /ukrainian-style/assets/verkhovina-desktop@2x-507d99b3.jpg 800w
+              "
+              sizes=" (max-width: 767px) 335px,
+                    (min-width: 768px) 342px,
+                    (min-width: 1280px) 400px
+                      "
+              src="/ukrainian-style/assets/verkhovina-mobile-6df0889d.jpg"
+              alt="Verkhovina"
+              width="335"
+            />
+            <h3 class="our-collection-name-item">Men's shirt Verkhovina</h3>
+            <p class="our-collection-price-item">3100 UAH</p>
+          </li>
+          <li class="our-collection-item">
+            <img
+              class="our-collection-photo"
+              srcset="
+                /ukrainian-style/assets/mountain-mobile-713d88da.jpg     335w,
+                /ukrainian-style/assets/mountain-mobile@2x-cce199ac.jpg  670w,
+                /ukrainian-style/assets/mountain-tablet-9ea4f7da.jpg     342w,
+                /ukrainian-style/assets/mountain-tablet@2x-8a8f94b6.jpg  684w,
+                /ukrainian-style/assets/mountain-desktop-6ff00a02.jpg    400w,
+                /ukrainian-style/assets/mountain-desktop@2x-1cf944ef.jpg 800w
+              "
+              sizes=" (max-width: 767px) 335px,
+                    (min-width: 768px) 342px,
+                    (min-width: 1280px) 400px
+                      "
+              src="/ukrainian-style/assets/mountain-mobile-713d88da.jpg"
+              alt="Mountain"
+              width="335"
+            />
+            <h3 class="our-collection-name-item">Mountain men's shirt</h3>
+            <p class="our-collection-price-item">3300 UAH</p>
+          </li>
+          <li class="our-collection-item">
+            <img
+              class="our-collection-photo"
+              srcset="
+                /ukrainian-style/assets/yasen-mobile-2e495ac3.jpg     335w,
+                /ukrainian-style/assets/yasen-mobile@2x-c1eaf0c8.jpg  670w,
+                /ukrainian-style/assets/yasen-tablet-938058f5.jpg     342w,
+                /ukrainian-style/assets/yasen-tablet@2x-e6f1601d.jpg  684w,
+                /ukrainian-style/assets/yasen-desktop-09f9c3f3.jpg    400w,
+                /ukrainian-style/assets/yasen-desktop@2x-717aeab1.jpg 800w
+              "
+              sizes=" (max-width: 767px) 335px,
+                    (min-width: 768px) 342px,
+                    (min-width: 1280px) 400px
+                      "
+              src="/ukrainian-style/assets/yasen-mobile-2e495ac3.jpg"
+              alt="Yasen"
+              width="335"
+            />
+            <h3 class="our-collection-name-item">Men's shirt Yasen</h3>
+            <p class="our-collection-price-item">1700 UAH</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="order">
+      <div class="main-order-container">
+        <div class="order-background-img"></div>
+        <div class="order-container container">
+          <img
+            class="order-shirt-foto"
+            srcset="
+              /ukrainian-style/assets/order_desk-dbc9b847.jpg       524w,
+              /ukrainian-style/assets/order_desk@2x-ead78660.jpg   1048w,
+              /ukrainian-style/assets/order_tablet-077f70c7.jpg     638w,
+              /ukrainian-style/assets/order_tablet@2x-86094c66.jpg 1276w
+            "
+            sizes="(min-width: 1280px) 524px, (max-width: 1279px) 638px"
+            src="/ukrainian-style/assets/order_tablet-077f70c7.jpg"
+            alt="Shirt foto"
+          />
+
+          <div class="order-box">
+            <h2 class="order-title">
+              <span class="yellow-order-title">Your order</span> is our
+              priority: Personalized approach and quality of service
+            </h2>
+            <form>
+              <div class="order-form-wrapper">
+                <div class="order-input-wrapper">
+                  <label class="order-form-input-label" for="user-name">
+                    <input
+                      type="text"
+                      class="order-form-input"
+                      id="user-name"
+                      name="user-name"
+                      pattern="[a-zA-Zа-яА-ЯіІїЇєЄ]+"
+                      title="Oleksii"
+                      required
+                      placeholder="Enter your full name"
+                    />
+                  </label>
+                </div>
+
+                <div class="input-email-wrapper">
+                  <label class="order-form-input-label" for="user-email">
+                    <input
+                      type="email"
+                      class="order-form-input"
+                      id="user-email"
+                      name="user_email"
+                      required
+                      placeholder="Enter your email"
+                    />
+                  </label>
+                </div>
+                <div class="review-form-field-wrapper-comment">
+                  <label class="order-form-comment-label" for="user-comment">
+                    <textarea
+                      class="order-form-comment"
+                      id="user-comment"
+                      name="user-comment"
+                      placeholder="Comments"
+                    ></textarea>
+                  </label>
+                </div>
+
+                <button class="order-form-button" type="submit">
+                  <span class="order-form-button-inner-wrapper">
+                    <span class="order">Send</span>
+                    <svg
+                      class="review-form-field-icon"
+                      width="24"
+                      height="16"
+                      aria-label="user icon"
+                    >
+                      <use
+                        class="order-icon-arrow"
+                        href="/ukrainian-style/assets/sprite-e80feece.svg#icon-arrow"
+                      ></use>
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <h2 class="testimonial-title-main">Testimonials</h2>
+        <ul class="testimonial-list">
+          <li class="testimonials-box-image">
+            <div class="testimonials-box">
+              <div class="testimonial-image-wrap">
+                <img
+                  class="testimonial-image"
+                  srcset="
+                    data:image/webp;base64,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 1x,
+                    /ukrainian-style/assets/tkachuk2x-943a5ce9.webp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 2x
+                  "
+                  src="data:image/webp;base64,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"
+                  alt="maria-tkachuk-photo"
+                  width="64"
+                  height="64"
+                />
+              </div>
+              <h3 class="testimonial-title">Maria Tkachuk</h3>
+              <p class="testimonial-text">
+                I was pleasantly surprised by the variety of embroidery offered
+                by Vyshyvanka Vibes. They have models for every taste - from
+                classic to modern. I bought an embroidered dress to celebrate a
+                special occasion and received impeccable service and refinement
+                in every detail.
+              </p>
+            </div>
+          </li>
+          <li class="testimonials-box-image not-visible">
+            <div class="testimonials-box">
+              <div class="testimonial-image-wrap">
+                <img
+                  class="testimonial-image"
+                  srcset="
+                    data:image/webp;base64,UklGRmgIAABXRUJQVlA4WAoAAAAQAAAARwAARwAAQUxQSHECAAABoJxtkyLJif+PiKzaM0g6D9shvON98Y4GDDhABpADCw6sZEG3BZMepDxIQWHGszpHxATIFxKTwwAgSVUzoypJQNAeQOrO0/P3m1xrrXnz/vjnXSUBNAVSvz3Pdfb99bdKoB2QD49LXfj+6Q4BtAE+PC51xXK+Q6IBUF+VuvL9EwWwFrn7uTZ4v0NgDQD6qtQmyyslVhDYRW32hMByqje14RsCC4G6qU1vFFgE1Jva+I0BC4B6Upu/0AUAfV0DviYwA+ReiVB2OUdouYb8bHOoz2rQ1wpM28tRyiNOgl7UsCfGCcBeiVMeESOAPquBT5QjQs+RimME+l0N/R05RL2NdaEYAC3Hys4h3a/B9xT/of4a7dmInUa7UIoIaB+jfTAd8G20zUjK0bJzwGv4NKApniv+ZyQbytGyc8C30TauQx+jfXCKCOiX0U4GhP482q+G/8AOou0rBzTlWDkp/iPql7FunUP0H2L9YJRBWFci5U4xon4a6XnilK9LnLKvlFFYOo1z6cSYqH9douQDo4wD6m+jPHfFBAEt/RkjJ+M0qB+WCOXACJkO9XcR3rhijtDSZXtnyShzIbTurrW7zohZAqj327a2nROyIMDU3bZ017tiEQHU+7N2LjtTysKAevfurzbK286VsjzU0mFu4Y+jzgisIKCl/mVeq7ztkxGyKgD17vCqrFHOvkmuxEoiApr3Ry/zUuX0my6ZQloE1b3rf7rN8/LVj33nRqINAajmqesPfz/7tM3/yduPVy+O+i65KQBpF6Cqeer6vu8f9H3/oOu6ZKokpG2AoKqambsnczNTEhIUHFSFAoQEB0QE8sUEAFZQOCDQBQAAUBwAnQEqSABIAD6RPJhKJaMiIauTm4CwEglnAMzrTdNCH1fouPUeYtmLn7vqOHe2wd/XXvxkvrnfL6nyt75D7AH8p/t3/C9UX/e/xHoP+nf/J/j/gI/kP9K/3/qzevj9nPYc/Sdk49XbDMkLP4WmNnujQ7t39ZPQl+6mpMQE+plmjy7UzAeWeKDyClPOTWV+ngxQhuhSpqvf9xMXgCnL6yOXZfS/vRH5+8+3ZY03UjhUAVntrxg5Yb6BGluyRuTRBz5AA4eM1ctaHAPVsU/vC0ytOToQ8TADHy7B8qx5CUZrwZEphxkzU4jEwAD+/xpXf/0foK9OK+lPEmt/kPYCzPjt+Ii/Zgt7aR0T5hrNt2XybTuwIafH0tQFa8yg7TIikbpjK+3tVkBI6I7L0YOKb//QfbA5k1fIWU9Nam7ifB8tBqUa5h2HE6XbVAxv0o26IvpioGsMBrBTl4Va5lB2wBogp5AiJTw4z+dOnbvOr9UUuC49+f8PnrmSwr/z3jr0O/NKsNMoaT13W2hoRFCNFu/L2a6L0CufoiRz4fNDEKO9fhJdNDC6wo575ByATuQf6GlJra84NdO+mtqf/+t6JR16J9PPdhXksTD0ENY2mNQ+6H7nzD/rknciWUscwuWaXwVY3+oATJi5DUg8O/cxed3nA7CDaWpIBXLYl8zSmvYANEX9YGelP9cP90agjmbfeHh6RCqmqEErVaVaSFeGf0cvJWDbckQphP3Q1RA3vAsUNjDR/vAqqUYJnkGesEmlrchPjjkwT2SolTQC0HJJ/XLvEkK6xgKOEJpAlASUK9LHVQV2bOwWXSkCy27Ok4o7e93rVrG8u8Qp5WZQh2I6FqViJz40t8Wh50fi8os9+YN/sndsJ7EBYSXHo5/pK2TAb2V+mWF/roVO8NnDMZx5teXMafftRXmtWCGz88SBWZWHoMFkdoO69jzxnth7v5Q3N4H17JzalPCQ5pZCRMVNB5wbxI5DZc1sPCW0cbi0thO/HJQiMLiENPj0JVmPX4JuS0IvhYrTK08DgiYk57P93t55FQhKO/+k10UkD+xHPYKo6H3n0yZeV4eufhtj97L9l0y8qc9XtND4seL/CTTVeiENuHoQVKwZWiKKXycBW0jRGIUuYcc7MNE7BYFpvkLvrYvviVSf3kzqKyQP6w7DZnOyXAetrtboZv8wt/r3uAaeg9WFFvRgho/IeMZmU45LgbUnEhfLucRCUNPPl8AViYoMTOeq+oCipe/DZV/VrBYWBVj+H6AWAPQSVDooHmatpckOMNwHPNlg7JKLybsuc2kHwFmysfiw1Nil1dSEWDUeCdxhz8Kb+DbVunsY8oz5ALBvzkmQ3Zch3bnHf8QoPcLYJQuiGVHyqeYZXf51hdkYYxbb+NR/sNYV2s+nN42CFEnsjoAJt3tEWax8Pkf9xgtunDXoXvUq93dsgkhAneXlQgjg/3l7X6E2R0NUUyLKnFlmV1ECvNX623fwc8GwHwAQ6zQsoSxUoRbkYp93Gm6hKut6PjJokx7ruObVrkVplDeBUvbQeBIjUYOHn+NtaK6JP08mAPAQnGihnf8k/XZTo0WF2oLmiXXHTaXHLsY3nQcbxLRDmdApTbih0lDpZQ9x48uSBpzGXoceBcsJ5fwFmmwqnqhrmCLbiU0/+muSJX4aH0P7UXiHLxANism5b+seqw/0Ij2CcNZTmoV/+ETzOT91qZfhB2aK55f7LhyZX0O1Vzd6TxNETppRoWXW5L6G6vDDH3oqSgNUZIco2vWulA6qctQBJKzuNSy/rHfbHK72JczGi64wX+KsFxc7kKBhmAQeQzwjEmfiEiab1/UyszM0XYms0wpR+FV7CbCAZHs7TUYldY3UWfM89070AA9Z97y870oHnlQZ26+vV/dQEco6yhc/HTz3EmSdPVPSTGBoMBw5NPhmGS4Uh645py/x/1Ux+ru7mW1s7tZuUspTw5A/U4jurZBVL1QwAAAA 1x,
+                    /ukrainian-style/assets/rybachok2x-26a47762.webp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        2x
+                  "
+                  src="data:image/webp;base64,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"
+                  alt="sergey-rybachok-photo"
+                  width="64"
+                  height="64"
+                />
+              </div>
+              <h3 class="testimonial-title">Sergey Rybachok</h3>
+              <p class="testimonial-text">
+                Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka
+                are simply masterpieces! I fell in love with the quality of the
+                materials and the skill of the artisans behind each product.
+                This is my favorite embroidery shop where I always find
+                something special and unique.
+              </p>
+            </div>
+          </li>
+          <li class="testimonials-box-image not-visible">
+            <div class="testimonials-box">
+              <div class="testimonial-image-wrap">
+                <img
+                  class="testimonial-image"
+                  srcset="
+                    data:image/webp;base64,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 1x,
+                    /ukrainian-style/assets/chatuk2x-5121f6dd.webp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              2x
+                  "
+                  src="data:image/webp;base64,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"
+                  alt="natalia-chatuk-photo"
+                  width="64"
+                  height="64"
+                />
+              </div>
+
+              <h3 class="testimonial-title">Natalia Chatuk</h3>
+              <p class="testimonial-text">
+                Vyshyvanka Vibes is a real find for everyone who appreciates
+                Ukrainian culture. Their embroidery reflects the spirit and
+                traditions of our people. I not only buy embroidered shirts for
+                myself, but also give them to my friends abroad as a symbol of
+                our beauty and national pride.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-wrapper">
+        <nav class="footer-nav">
+          <ul class="footer-menu-list">
+            <li class="footer-list">
+              <a class="menu-item" href="#about">about us</a>
+            </li>
+            <li class="footer-list">
+              <a class="menu-item" href="#collection">our collection</a>
+            </li>
+            <li class="footer-list">
+              <a class="menu-item" href="#order">customer order</a>
+            </li>
+            <li class="footer-list">
+              <a class="menu-item" href="#testimonials">testimonials</a>
+            </li>
+          </ul>
+        </nav>
+        <p class="footer-title">
+          A touch of <span class="footer-span">Ukrainian</span> culture in every
+          embroidery
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
