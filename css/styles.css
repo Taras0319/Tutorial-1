@@ -28,6 +28,7 @@ h6 {
 
 img {
     display: block;
+    
 }
 
 
@@ -36,7 +37,7 @@ list-style: none;
 }
 
 .conteiner{
-width: 1310px;
+width: 100%;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
@@ -51,6 +52,7 @@ padding-bottom: 150px;
 
 .conteiner-about-us{
 background: var(--black, #1C2225);
+display: flex;
 }
 
 .about-us-title {
@@ -83,30 +85,22 @@ color: rgba(252, 249, 249, 0.40);
     letter-spacing: -0.04em;
 }
 
-.about-us-content{
-    
-}
-
-.about-us-content {
-
-}
-
-
 .about-us-content-img{
     display: inline-flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    float: right;
 }
 
 .about-us-img{
-float:right;
+    
 }
 
 .about-us-content-text{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
+    padding-left: 100px;
     gap: 40px;
 }
